@@ -25,7 +25,7 @@ public class Pong extends Render2DBase {
     
     public Pong(LX lx) {
         super(lx);
-        initialize(30, 30);
+        initialize(SIZE, SIZE);
     }
     
     private void updateGame() {
